@@ -1,0 +1,11 @@
+zk:
+  host: zookeeper01.hike.in:2181,zookeeper02.hike.in:2181,zookeeper03.hike.in:2181,zookeeper04.hike.in:2181,zookeeper05.hike.in:2181
+
+auth:
+  url: http://api.im.hike.in/v1/authenticate
+  timeout: 60
+
+statsd:
+  host: statsd.hike.in
+  port: 8125
+

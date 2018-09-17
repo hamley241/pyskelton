@@ -1,0 +1,10 @@
+zk:
+  host: 10.0.1.35:2181,10.0.1.36:2181
+
+auth:
+  url: http://staging.im.hike.in/v1/authenticate
+  timeout: 60
+
+statsd:
+  host: 10.0.1.5
+  port: 8125
